@@ -83,9 +83,9 @@ Licença:
  - Este projeto foi desenvolvido para fins acadêmicos e de estudo.
 
 Autor:
-Desenvolvido por Andrey Vinícius.
-GitHub: https://github.com/andreysilva018
-LinkedIn: https://www.linkedin.com/in/andreyssilva/
+- Desenvolvido por Andrey Vinícius.
+- GitHub: https://github.com/andreysilva018
+- LinkedIn: https://www.linkedin.com/in/andreyssilva/
 Portfólio: https://andreyportifolio.netlify.app/ 
 
 Agradecimentos:
