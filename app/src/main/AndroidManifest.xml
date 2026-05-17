@@ -12,7 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppImobiliariaAndroid">
         <activity
-            android:name=".MainActivity"
+            android:name=".TelaResumoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TelaComodidadesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TelaPreferencia"
+            android:exported="false" />
+        <activity
+            android:name=".TelaLocalizacaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TelaInicialActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
