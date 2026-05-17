@@ -85,7 +85,7 @@ Licença:
 Autor:
 - Desenvolvido por Andrey Vinícius.
 - GitHub: https://github.com/andreysilva018
-- LinkedIn: https://www.linkedin.com/in/andreyssilva/
+- LinkedIn: www.linkedin.com/in/andrey-ssilva
 Portfólio: https://andreyportifolio.netlify.app/ 
 
 Agradecimentos:
