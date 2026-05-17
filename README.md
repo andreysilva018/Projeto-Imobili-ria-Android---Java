@@ -69,11 +69,11 @@ AppImobiliariaAndroid/
 │   │   │   ├── AndroidManifest.xml
 
 📸 Screenshots:
-<img width="1080" height="2400" alt="tela-inicial" src="https://github.com/user-attachments/assets/28fc2463-1755-4db1-83ab-6e524e3604a4" />
-<img width="1080" height="2400" alt="tela-localizacao" src="https://github.com/user-attachments/assets/7e1c4d08-9037-4411-bf1e-392b392d4b85" />
-<img width="1080" height="2400" alt="tela-spinner" src="https://github.com/user-attachments/assets/0dcdc1e2-5153-4055-9fa3-ec3282002a25" />
-<img width="1080" height="2400" alt="tela-preferencias" src="https://github.com/user-attachments/assets/fd56e970-4d48-4d79-987e-a4764bc1aaf7" />
-<img width="1080" height="2400" alt="tela-comodidades" src="https://github.com/user-attachments/assets/17093e0f-a64a-4c4d-a3d8-aab1c50ccb3f" />
+<img width="720" height="1600" alt="tela-inicial" src="https://github.com/user-attachments/assets/28fc2463-1755-4db1-83ab-6e524e3604a4" />
+<img width="720" height="1600" alt="tela-localizacao" src="https://github.com/user-attachments/assets/7e1c4d08-9037-4411-bf1e-392b392d4b85" />
+<img width="720" height="1600" alt="tela-spinner" src="https://github.com/user-attachments/assets/0dcdc1e2-5153-4055-9fa3-ec3282002a25" />
+<img width="720" height="1600" alt="tela-preferencias" src="https://github.com/user-attachments/assets/fd56e970-4d48-4d79-987e-a4764bc1aaf7" />
+<img width="720" height="1600" alt="tela-comodidades" src="https://github.com/user-attachments/assets/17093e0f-a64a-4c4d-a3d8-aab1c50ccb3f" />
 <img width="720" height="1600" alt="tela-resumo" src="https://github.com/user-attachments/assets/a1fd04a7-48d2-458d-8b30-a3e72e10ce52" />
 
 Contribuição:
