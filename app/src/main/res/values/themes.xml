@@ -6,4 +6,8 @@
     </style>
 
     <style name="Theme.AppImobiliariaAndroid" parent="Base.Theme.AppImobiliariaAndroid" />
+
+    <style name="SpinnerStyle" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:textSize">20dp</item>
+    </style>
 </resources>

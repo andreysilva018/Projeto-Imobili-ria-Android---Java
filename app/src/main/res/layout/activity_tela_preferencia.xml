@@ -1,10 +1,198 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F0F4FB"
+    android:fillViewport="true"
     tools:context=".TelaPreferencia">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#185FA5"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="🏠"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Preferências do imóvel"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Selecione as opções desejadas"
+                android:textColor="#B3D4F5"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/txtTituloQuarto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QUARTOS"
+                android:textSize="11sp"
+                android:textColor="#8e939c"
+                android:letterSpacing="0.08"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioGroup
+                android:id="@+id/rgQuartos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp">
+
+                <RadioButton
+                    android:id="@+id/rblQuarto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="1 quarto"
+                    android:textColor="#8e939c"/>
+
+                <RadioButton
+                    android:id="@+id/rbl1Quartos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="2 quarto"
+                    android:textColor="#8e939c"/>
+
+                <RadioButton
+                    android:id="@+id/rbl2Quartos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3+ quartos"
+                    android:textColor="#8e939c"/>
+            </RadioGroup>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="20dp"
+                android:background="#E0E0E0"/>
+
+            <TextView
+                android:id="@+id/txtTituloBanheiro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BANHEIROS"
+                android:textSize="11sp"
+                android:textColor="#8e939c"
+                android:letterSpacing="0.08"
+                android:layout_marginBottom="10dp" />
+
+            <RadioGroup
+                android:id="@+id/rgBanheiros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp">
+
+                <RadioButton
+                    android:id="@+id/rblBanheiros"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="1 banheiro"
+                    android:textColor="#8e939c"/>
+
+                <RadioButton
+                    android:id="@+id/rbl1Banheiros"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="2 banheiros"
+                    android:textColor="#8e939c"/>
+
+                <RadioButton
+                    android:id="@+id/rbl2Banheiros"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3+ banheiros"
+                    android:textColor="#8e939c"/>
+
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="20dp"
+                android:background="#E0E0E0"/>
+
+            <TextView
+                android:id="@+id/txtTituloGaragem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GARAGEM"
+                android:textSize="11sp"
+                android:textColor="#8e939c"
+                android:letterSpacing="0.08"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioGroup
+                android:id="@+id/rgGaragem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="24dp">
+
+                <RadioButton
+                    android:id="@+id/rblSim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:text="Sim"
+                    android:textColor="#8e939c"/>
+
+                <RadioButton
+                    android:id="@+id/rblNao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Não"
+                    android:textColor="#8e939c"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnAvancar"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Avançar"
+                android:textSize="15sp"
+                android:backgroundTint="#185FA5"
+                app:cornerRadius="12dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">AppImobiliariaAndroid</string>
+    <string name="nome_imobiliaria">Imobiliária Prime</string>
+    <string name="slogan_imobiliaria">Encontre o lugar que você pertence</string>
+    <string name="btn_acessar">Acessar</string>
+    <string name="desc_logo">Logo da imobiliária</string>
+    <string name="titulo_onde_morar">Onde deseja morar?</string>
+    <string name="nome_cidade">Digite a cidade</string>
+    <string name="nome_uf">Qual UF</string>
+    <string name="btn_enviar">Enviar</string>
+
+    <string-array name="listasuspensa_uf">
+        <item>AC</item>
+        <item>AL</item>
+        <item>AP</item>
+        <item>AM</item>
+        <item>BA</item>
+        <item>CE</item>
+        <item>DF</item>
+        <item>ES</item>
+        <item>GO</item>
+        <item>MA</item>
+        <item>MT</item>
+        <item>MS</item>
+        <item>MG</item>
+        <item>PA</item>
+        <item>PB</item>
+        <item>PR</item>
+        <item>PE</item>
+        <item>PI</item>
+        <item>RJ</item>
+        <item>RN</item>
+        <item>RS</item>
+        <item>RO</item>
+        <item>RR</item>
+        <item>SC</item>
+        <item>SP</item>
+        <item>SE</item>
+        <item>TO</item>
+    </string-array>
 </resources>
