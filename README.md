@@ -47,6 +47,7 @@ git clone https://github.com/andreysilva018/AppImobiliariaAndroid.git
  - Escolha as preferências do imóvel
  - Selecione quartos, banheiros e garagem
  - Visualize o resumo completo com o valor estimado do aluguel
+```
 
 📂 Estrutura do Projeto:
 AppImobiliariaAndroid/
